@@ -51,9 +51,11 @@ p {
 .box-viola>* {
     text-align: center;
     line-height: 80px;
+    font-size: small;
 }
 
 .box-giallo>* {
     text-align: center;
     line-height: 60px;
+    font-size: small;
 }
