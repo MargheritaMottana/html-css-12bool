@@ -1,0 +1,59 @@
+/* GENERAL */
+
+/* palette 
+
+viola #662c8f
+viola chiaro #9a70b4
+giallo #ffce00
+grigio scuro #212121
+
+*/
+
+html {
+    font-family: "Fraunces", serif;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+/* TESTI */
+
+h1 {
+    color: #662c8f;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #9a70b4;
+}
+
+p {
+    color: #212121;
+}
+
+/* BOX */
+
+.box-viola {
+    color: white;
+    background-color: #662c8f;
+    height: 80px;
+    border: 2px solid white;
+}
+
+.box-giallo {
+    color: #212121;
+    background-color: #ffce00;
+    height: 60px;
+    border: 2px solid #662c8f;
+}
+
+.box-viola>* {
+    text-align: center;
+    line-height: 80px;
+}
+
+.box-giallo>* {
+    text-align: center;
+    line-height: 60px;
+}
