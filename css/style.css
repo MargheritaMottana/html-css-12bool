@@ -59,3 +59,11 @@ p {
     line-height: 40px;
     font-size: small;
 }
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
